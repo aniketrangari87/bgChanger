@@ -5,8 +5,8 @@
   "homepage": "https://aniketrangari87.github.io/react-gh-pages/bgChanger",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "predeploy": "npm run build",
+    "dev": "vite",
     "deploy": "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
